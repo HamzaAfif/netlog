@@ -44,8 +44,8 @@
     <section id="hero">
         <div class="hero-content">
             <img src="assets/Logo.png" alt="NetLog Logo" class="hero-logo">
-            <p id="typing-text"></p> 
-            <a href="#services" class="btn">Discover More</a>
+            <p id="typing-text"></p>  
+            <a href="#services" class="btn" data-lang-key="hero.button">Discover More</a>
         </div>
     </section>
     
@@ -55,12 +55,12 @@
 
     <section id="services">
         <div class="container">
-            <h2 class="section-title">Our Premium Services</h2>
+            <h2 class="section-title" data-lang-key="services.title">Our Premium Services</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">🌐</div>
                     <h3 class="service-title">Global Shipping</h3>
-                    <p>Efficient worldwide logistics solutions</p>
+                    <p data-lang-key="services.description">Efficient worldwide logistics solutions</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">⛓️</div>
@@ -120,9 +120,9 @@
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
-                    <h2 class="section-title">About Net Log Global</h2>
-                    <p>At Net Log Global, we blend tradition with innovation to deliver unparalleled logistics solutions. Our commitment to excellence and cutting-edge technology ensures that your business stays ahead in the global market.</p>
-                    <p>With a network spanning across continents, we pride ourselves on our ability to navigate complex supply chains with grace and precision.</p>
+                    <h2 class="section-title" data-lang-key="about.title">About Net Log Global</h2>
+                    <p data-lang-key="about.description">At Net Log Global, we blend tradition with innovation to deliver unparalleled logistics solutions. Our commitment to excellence and cutting-edge technology ensures that your business stays ahead in the global market.</p>
+                    <p data-lang-key="about.description1">With a network spanning across continents, we pride ourselves on our ability to navigate complex supply chains with grace and precision.</p>
                 </div>
                 <div class="about-image">
                     <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="About Net Log Global">
@@ -275,6 +275,17 @@ document.addEventListener("DOMContentLoaded", () => {
       "nav.partners": "Partners",
       "nav.about": "About",
       "nav.contact": "Contact",
+      "hero.tagline": "Seamlessly connecting businesses to the world, one shipment at a time.",
+      "hero.button": "Discover More",
+      "services.title": "Our Premium Services",
+      "services.description": "Efficient worldwide logistics solutions",
+      "about.title": "About Net Log Global",
+      "about.description": "At Net Log Global, we blend tradition with innovation to deliver unparalleled logistics solutions. Our commitment to excellence and cutting-edge technology ensures that your business stays ahead in the global market.",
+      "about.description1": "With a network spanning across continents, we pride ourselves on our ability to navigate complex supply chains with grace and precision.",
+      "footer.copyright": "© 2025 Net Log Global Logistics | All Rights Reserved",
+      "footer.privacy": "Privacy Policy",
+      "footer.terms": "Terms of Service",
+      "footer.cookies": "Cookie Policy"
     },
     fr: {
       "nav.home": "Accueil",
@@ -283,8 +294,18 @@ document.addEventListener("DOMContentLoaded", () => {
       "nav.partners": "Partenaires",
       "nav.about": "À propos",
       "nav.contact": "Contact",
-    },
-  }
+      "hero.tagline": "Connecter les entreprises au monde, une expédition à la fois.",
+      "hero.button": "Découvrir Plus",
+      "services.title": "Nos Services Premium",
+      "services.description": "Des solutions logistiques efficaces à l’échelle mondiale",
+      "about.title": "À propos de Net Log Global",
+      "about.description": "Chez Net Log Global, nous allions tradition et innovation...",
+      "footer.copyright": "© 2025 Net Log Global Logistics | Tous droits réservés",
+      "footer.privacy": "Politique de confidentialité",
+      "footer.terms": "Conditions d'utilisation",
+      "footer.cookies": "Politique des cookies"
+    }
+  };
   
   let currentLang = "en"
   
